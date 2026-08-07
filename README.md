@@ -6,5 +6,7 @@ Welcome to the course website. Click the links below to view or download the PDF
 * [Download Syllabus](syllabus.pdf)
 
 # Lectures
-* [Lecture 1 ](Lec1.pdf)  Introduction.. etc
+* [Lecture 1 ](Lec1.pdf)  Introduction. Sparse matrices. Date: Fri Aug  7 01:19:24 PM CDT 2026
+
+
 
