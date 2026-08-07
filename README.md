@@ -35,4 +35,4 @@ Fri Aug  7 03:58:05 PM CDT 2026
  Discretization of Partial Differential Equations;
  In brief: Finite Differences and Finite Element methods
   
- 
+* [Go to Lectures](Notes)  
