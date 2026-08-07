@@ -15,15 +15,42 @@ Projects due last day of class.
   
 | Quiz 1 | Quiz 2 | Quiz 3 | Quiz 4 | Presentations |
 | -------- | -------- |-------- |-------- |-------- |
-| Sep 21   |  Oct  5  |  Oct 26  |  Nov  9 |  Dec 14-16  |
+| Sep 23   |  Oct  7  |  Oct 28  |  Nov 11 |  Dec 14 & 16  |
 
 </details>
 
 
-
-
 # Lectures
-* [Lecture 1 ](Lec1.pdf)  Introduction. Sparse matrices. Date: Fri Aug  7 01:19:24 PM CDT 2026
+
+* [Lecture 1](LecN1.pdf) :
+Posted on: 
+Fri Aug  7 03:26:28 PM CDT 2026
+<details><summary><b>Topics:</b></summary>
+  Introduction; Types of problems seen in this course ;
+ General introduction; Motivation; historical perspective;
+ Pointers to resources; Sparse matrices - definition;
+ Structured, unstructured sparsity; sparse matrices in matlab.
+ Origins of sparse matrices; Typical problems;
+ Discretization of Partial Differential Equations;
+ In brief: Finite Differences and Finite Element methods
+</details>
+  
+ 
+
+* [Lecture 1](LecN1.pdf) :
+Posted on: 
+Fri Aug  7 03:25:57 PM CDT 2026
+<details><summary><b>Topics:</b></summary>
+  Introduction; Types of problems seen in this course ;
+ General introduction; Motivation; historical perspective;
+ Pointers to resources; Sparse matrices - definition;
+ Structured, unstructured sparsity; sparse matrices in matlab.
+ Origins of sparse matrices; Typical problems;
+ Discretization of Partial Differential Equations;
+ In brief: Finite Differences and Finite Element methods
+</details>
+  
+ 
 
 
 
