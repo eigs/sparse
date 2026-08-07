@@ -12,6 +12,7 @@ Projects due last day of class.
 
 <details>
 <summary> <b>Detailed schedule</b> </summary>
+  
 | Quiz 1 | Quiz 2 | Quiz 3 | Quiz 4 | Presentations |
 | -------- | -------- |-------- |-------- |-------- |
 | Sep 21   |  Oct  5  |  Oct 26  |  Nov  9 |  Dec 14-16  |
