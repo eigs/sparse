@@ -6,7 +6,12 @@ Welcome to the course website. Click the links below to view or download the PDF
 * [Download Syllabus](syllabus.pdf)
 
 ## Schedule
-* [Detailed Schedule] (to-be-posted)
+
+| Quiz 1 | Quiz 2 | Quiz 3 | Quiz 4 | Presentations |
+| -------- | -------- |-------- |-------- |-------- |
+| sep 21   |  Oct  5  |  Oct 26  |  Nov  9 |  Dec 14 &16  |
+
+Projects due last day of class. 
 
 # Lectures
 * [Lecture 1 ](Lec1.pdf)  Introduction. Sparse matrices. Date: Fri Aug  7 01:19:24 PM CDT 2026
