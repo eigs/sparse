@@ -5,6 +5,6 @@ Welcome to the course website. Click the links below to view or download the PDF
 ## Course Syllabus
 * [Download Syllabus](syllabus.pdf)
 
-#Lectures
+# Lectures
 * [Lecture 1: Introduction to Motion](Lec1.pdf)
 
