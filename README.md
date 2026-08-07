@@ -6,5 +6,5 @@ Welcome to the course website. Click the links below to view or download the PDF
 * [Download Syllabus](syllabus.pdf)
 
 # Lectures
-* (Lec1.pdf) [Lecture 1]
+* [Lecture 1 ](Lec1.pdf)  Introduction.. etc
 
