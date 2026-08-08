@@ -1,6 +1,11 @@
 # Sparse_Matrix_Computations  - CSCI 8314 - F26 
 
-![Alt](sparse.gif "Sparse-logo")
+<p align="center">
+  <img src="sparse.gif" alt="Sparse-logo"> <br>
+  <em>  ==== csci 8314 sparse matrix computations ==== 
+  </em>
+</p>
+
 
 ~~~
 Welcome to the csci 8314 repository. 
