@@ -1,11 +1,11 @@
 # Sparse_Matrix_Computations  - CSCI 8314 - F26 
 
 <img align="right" width="150" src="./files/sparse.gif" alt="Sparse-logo">
+<i>
 Welcome to the csci 8314 course repository.
 Here you will find all the `public' resources to the course - including the syllabus,
 lecture notes, sample codes, exercises, etc. 
-
-<hr> 
+</i>
 
 ## Course Syllabus
 * [Download Syllabus](./files/syllabus.pdf)
@@ -25,6 +25,6 @@ Projects due last day of class.
 </details>
 
 
-# Lectures
+## Lectures
   
 * [Go to Lecture Notes](Notes.md)  
