@@ -1,6 +1,11 @@
 # Sparse_Matrix_Computations  - CSCI 8314 - F26 
 
-Welcome to the course website. Click the links below to view or download the PDFs.
+![Alt](sparse.gif "Sparse-logo")
+
+~~~
+Welcome to the csci 8314 repository. 
+
+~~~
 
 ## Course Syllabus
 * [Download Syllabus](syllabus.pdf)
@@ -11,7 +16,7 @@ First lecture: Sept. 9th. Last: Dec. 16th.
 Projects due last day of class.
 
 <details>
-<summary> <b>Detailed schedule</b> </summary>
+<summary> <b>Detailed schedule</b> (tentative) </summary>
   
 | Quiz 1 | Quiz 2 | Quiz 3 | Quiz 4 | Presentations |
 | -------- | -------- |-------- |-------- |-------- |
