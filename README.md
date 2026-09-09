@@ -15,7 +15,7 @@ lecture notes, sample codes, exercises, etc.
 First lecture: Sept. 9th. Last: Dec. 16th.
 Projects due last day of class.
 
-<b> Office Hours :</b> Mo- Wed 4:00pm -- 5:00pm 
+<b> Office Hours :</b> Mo- Wed 4:00pm -- 5:00pm - Keller Hall 5-225B
 
 <details>
 <summary> <b>Detailed schedule</b> (tentative) </summary>
