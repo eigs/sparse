@@ -15,7 +15,7 @@ lecture notes, sample codes, exercises, etc.
 First lecture: Sept. 9th. Last: Dec. 16th.
 Projects due last day of class.
 
-<b> Office Hours :</b> Mo 11:00am -- Noon; We: 10:00am -- 11:00am 
+<b> Office Hours :</b> Mo- Wed 4:00pm -- 5:00pm 
 
 <details>
 <summary> <b>Detailed schedule</b> (tentative) </summary>
