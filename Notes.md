@@ -2,6 +2,16 @@
 
 
 
+* [Lecture 2](./files/LecN2.pdf) :
+Posted on: 
+Sat Sep 12 02:40:47 PM CDT 2026
+ <b>Topics:</b> 
+ Origins of sparse matrices; Typical problems;
+ Discretization of Partial Differential Equations;
+ Finite Differences and (In brief:) Finite Element methods
+  
+ 
+
 * [Lecture 1](./files/LecN1.pdf) :
 Posted on: 
 Fri Sep  4 10:47:45 AM CDT 2026
