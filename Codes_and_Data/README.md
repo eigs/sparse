@@ -29,4 +29,8 @@ Projects due last day of class.
 
 ## Lectures
   
-* [Go to Lecture Notes](Notes.md)  
+* [Go to Lecture Notes](Notes.md)
+
+## Diaries/Data
+  
+* [Diaries+ Folder](DiariesPlus.md)  
