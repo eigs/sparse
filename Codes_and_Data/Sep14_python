@@ -1,0 +1,43 @@
+>>> run init.py
+>>> X = np.loadtxt('ex7_py.txt')
+>>> rows = X[0,:].astype(int)
+>>> cols = X[1,:].astype(int)
+>>> (rows,cols)
+(array([0, 0, 1, 1, 3, 4]), array([1, 4, 2, 5, 4, 5]))
+>>> vals = X[2,:].astype(int)
+>>> coo(vals, (rows,cols))
+>>> coo((vals, (rows,cols)))
+<COOrdinate sparse array of dtype 'int64'
+	with 6 stored elements and shape (5, 6)>
+>>> S = coo((vals, (rows,cols)))
+>>> print(S)
+>>> B = S.todense()
+>>> B
+array([[0, 1, 0, 0, 1, 0],
+       [0, 0, 1, 0, 0, 1],
+       [0, 0, 0, 0, 0, 0],
+       [0, 0, 0, 0, 1, 0],
+       [0, 0, 0, 0, 0, 1]])
+>>> B + B.T
+>>> S = coo((vals, (rows,cols)),shape=(6,6))
+>>> B = S.todense()
+>>> B + B.T
+array([[0, 1, 0, 0, 1, 0],
+       [1, 0, 1, 0, 0, 1],
+       [0, 1, 0, 0, 0, 0],
+       [0, 0, 0, 0, 1, 0],
+       [1, 0, 0, 1, 0, 1],
+       [0, 1, 0, 0, 1, 0]])
+>>> run init.py
+>>> X = np.loadtxt('ex7_py.txt')
+>>> rows = X[0,:].astype(int)
+>>> cols = X[1,:].astype(int)
+>>> vals = X[2,:]
+>>> S = coo((vals, (rows,cols)),shape=(6,6))
+>>> print(S)
+>>> S = csr((vals, (rows,cols)),shape=(6,6))
+>>> S
+<Compressed Sparse Row sparse array of dtype 'float64'
+	with 6 stored elements and shape (6, 6)>
+>>> print(S)
+>>> history -o -p -f sep_14_py
