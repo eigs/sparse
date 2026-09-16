@@ -1,0 +1,197 @@
+
+
+
+
+format compact 
+
+
+ex7
+ii =
+     1     1     2     2     4     5
+jj =
+     2     5     3     6     5     6
+names =
+  1x6 cell array
+    {'A'}    {'B'}    {'C'}    {'D'}    {'E'}    {'F'}
+
+
+A = sparse(ii,jj,ones(6,1),6,6)
+A =
+   (1,2)        1
+   (2,3)        1
+   (1,5)        1
+   (4,5)        1
+   (2,6)        1
+   (5,6)        1
+B = full(A)
+B =
+     0     1     0     0     1     0
+     0     0     1     0     0     1
+     0     0     0     0     0     0
+     0     0     0     0     1     0
+     0     0     0     0     0     1
+     0     0     0     0     0     0
+G = graph(A)
+{Error using graph
+Adjacency matrix must be symmetric. Alternatively, use
+option 'upper' or 'lower' to ignore part of the input
+matrix.} 
+G = graph(A,'upper')
+G = 
+  graph with properties:
+
+    Edges: [6x2 table]
+    Nodes: [6x0 table]
+G = graph(A,names,'upper')
+G = 
+  graph with properties:
+
+    Edges: [6x2 table]
+    Nodes: [6x1 table]
+
+
+G.Edges
+ans =
+  6x2 table
+       EndNodes       Weight
+    ______________    ______
+    {'A'}    {'B'}      1   
+    {'A'}    {'E'}      1   
+    {'B'}    {'C'}      1   
+    {'B'}    {'F'}      1   
+    {'D'}    {'E'}      1   
+    {'E'}    {'F'}      1   
+
+
+plot(G)
+
+
+A = A + A'+eye(6);
+full(A)
+ans =
+     1     1     0     0     1     0
+     1     1     1     0     0     1
+     0     1     1     0     0     0
+     0     0     0     1     1     0
+     1     0     0     1     1     1
+     0     1     0     0     1     1
+G = graph(A)
+G = 
+  graph with properties:
+
+    Edges: [12x2 table]
+    Nodes: [6x0 table]
+plot(G)
+G = graph(A,'omitselfloops')
+G = 
+  graph with properties:
+
+    Edges: [6x2 table]
+    Nodes: [6x0 table]
+plot(G)
+clear
+close
+
+
+
+Bmat = load('Bmat')
+Bmat = 
+  struct with fields:
+
+    Problem: [1x1 struct]
+
+
+
+Bmat
+Bmat = 
+  struct with fields:
+
+    Problem: [1x1 struct]
+Bmat.Problem
+ans = 
+  struct with fields:
+
+    title: '1SYMMETRIC MATRIX, FE APPROXIMATION TO BIHARMONIC OPERATOR ON PLATE     '
+        A: [960x960 double]
+     name: 'HB/nos3'
+
+
+Problem = Bmat.Problem
+Problem = 
+  struct with fields:
+
+    title: '1SYMMETRIC MATRIX, FE APPROXIMATION TO BIHARMONIC OPERATOR ON PLATE     '
+        A: [960x960 double]
+     name: 'HB/nos3'
+A = Problem.A;
+
+
+G = graph(A,'omitselfloops')
+G = 
+  graph with properties:
+
+    Edges: [7442x2 table]
+    Nodes: [960x0 table]
+
+
+plot(G)
+Problem.title
+ans =
+    '1SYMMETRIC MATRIX, FE APPROXIMATION TO BIHARMONIC OPERATOR ON PLATE     '
+
+
+
+
+
+test5pt           testGetInterface  testsuite         
+testcholdout      testrunner        
+testckfold        testsPackage      
+test5pt
+y =
+  Columns 1 through 9
+     1     1     1     1     1     1     1     1     2
+  Columns 10 through 18
+     2     2     2     2     2     2     2     3     3
+  Columns 19 through 27
+     3     3     3     3     3     3     4     4     4
+  Columns 28 through 36
+     4     4     4     4     4     5     5     5     5
+  Columns 37 through 45
+     5     5     5     5     6     6     6     6     6
+  Columns 46 through 48
+     6     6     6
+test5pt
+y =
+  Columns 1 through 9
+     1     1     1     1     1     1     1     1     2
+  Columns 10 through 18
+     2     2     2     2     2     2     2     3     3
+  Columns 19 through 27
+     3     3     3     3     3     3     4     4     4
+  Columns 28 through 36
+     4     4     4     4     4     5     5     5     5
+  Columns 37 through 45
+     5     5     5     5     6     6     6     6     6
+  Columns 46 through 48
+     6     6     6
+
+
+
+
+test5pt
+y =
+  Columns 1 through 9
+     1     1     1     1     1     1     1     1     2
+  Columns 10 through 18
+     2     2     2     2     2     2     2     3     3
+  Columns 19 through 27
+     3     3     3     3     3     3     4     4     4
+  Columns 28 through 36
+     4     4     4     4     4     5     5     5     5
+  Columns 37 through 45
+     5     5     5     5     6     6     6     6     6
+  Columns 46 through 48
+     6     6     6
+
+
+diary off
