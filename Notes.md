@@ -2,6 +2,16 @@
 
 
 
+* [Lecture 3](./files/LecN3.pdf) :
+Posted on: 
+Wed 16 Sep 2026 09:47:38 AM CDT
+ <b>Topics:</b> 
+ General data structures for sparse matrices;
+ Sparse matrix formats; COO, CSR, CSC; etc.
+ Matrix vector products
+  
+ 
+
 * [Lecture 2](./files/LecN2.pdf) :
 Posted on: 
 Sat Sep 12 02:40:47 PM CDT 2026
