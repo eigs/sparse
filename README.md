@@ -33,4 +33,4 @@ Projects due last day of class.
 
 ## Diaries/Data
   
-* [Diaries+ Folder](DiariesPlus.md)  
+* [Diaries+ Folder](./Codes_and_Data/DiariesPlus.md)  
