@@ -1,0 +1,39 @@
+
+
+
+A = lap2D(8,6);
+
+
+
+spy(A)
+[Warning: MATLAB has disabled some advanced graphics
+rendering features by switching to software OpenGL. For
+more information, click <a
+href="matlab:opengl('problems')">here</a>.] 
+
+
+
+
+
+
+
+
+
+size(A)
+ans =
+    48    48
+test5pt
+y =
+  Columns 1 through 9
+     1     1     1     1     1     1     1     1     2
+  Columns 10 through 18
+     2     2     2     2     2     2     2     3     3
+  Columns 19 through 27
+     3     3     3     3     3     3     4     4     4
+  Columns 28 through 36
+     4     4     4     4     4     5     5     5     5
+  Columns 37 through 45
+     5     5     5     5     6     6     6     6     6
+  Columns 46 through 48
+     6     6     6
+diary off

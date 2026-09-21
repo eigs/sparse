@@ -1,5 +1,16 @@
 #  CSCI 8314 - F26 -- Diaries, data, and more 
 
+## Sep. 21 Lec. Diaries
+
+  * [Sep21_matlab](Sep21_matlab): Sep21_matlab -- matlab diary
+
+  * [Sep21_python](Sep21_python): Sep21_python -- IPython diary 
+
+  * [Python script: TwoDLap.py](TwoDLap.py): 2-D Laplacean Generator using scipy
+
+  * [Python script: create_sp_tridiag.py](create_sp_tridiag.py): create sparse tridiagonal matrix
+  
+
 ## Sep. 16 Lec. Diaries
 
   * [Sep16_matlab](Sep16_matlab): Sep16_matlab -- matlab diary

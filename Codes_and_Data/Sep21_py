@@ -1,0 +1,18 @@
+>>> run init.py
+>>> nx = 8
+>>> ny = 6
+>>> xfrom scipy.sparse import dok_matri
+>>> from TwoDLap import *
+>>> A = TwoDLap(nx,ny)
+>>> plt.spy(A,markersize=3.0)
+<matplotlib.lines.Line2D at 0x777008481510>
+>>> plt.show()
+>>> d1 = np.array([3,6,9,11])
+>>> d2 = np.array([1,4,7,10,12])
+>>> d3 = np.array([2,5,8])
+>>> diags
+<function scipy.sparse._construct.diags(diagonals, offsets=0, shape=None, format=None, dtype=None)>
+>>> S = diags([d1,d2,d3],[-1,0,2],format='csr')
+>>> print(S.todense())
+>>> print(S)
+>>> history -o -p -f  Sep21_py
