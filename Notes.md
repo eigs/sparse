@@ -2,6 +2,16 @@
 
 
 
+* [Lecture 4](./files/LecN4.pdf) :
+Posted on: 
+Sun Sep 20 07:38:10 PM CDT 2026
+ <b>Topics:</b> 
+ Background on graph theory; general definitions; implementations;
+ Paths and cycles; connected graphs; acyclic graphs;
+ Graph traversals; Depth-First Search; Topological sorting;
+  
+ 
+
 * [Lecture 3](./files/LecN3.pdf) :
 Posted on: 
 Wed 16 Sep 2026 09:47:38 AM CDT
