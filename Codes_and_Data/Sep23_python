@@ -1,0 +1,30 @@
+>>> run init.py
+>>> X = np.loadtxt('ex3p10.txt')
+>>> X
+array([[ 1.,  0.,  2.,  0.,  0.],
+       [ 3.,  4.,  0.,  5.,  0.],
+       [ 0.,  6.,  7.,  0.,  8.],
+       [ 0.,  0.,  9., 10.,  0.],
+       [ 0.,  0.,  0., 11., 12.]])
+>>> B = sp.dia_matrix(X)
+>>> print(B)
+>>> B.data
+array([[ 3.,  6.,  9., 11.,  0.],
+       [ 1.,  4.,  7., 10., 12.],
+       [ 0.,  0.,  2.,  5.,  8.]])
+>>> X
+array([[ 1.,  0.,  2.,  0.,  0.],
+       [ 3.,  4.,  0.,  5.,  0.],
+       [ 0.,  6.,  7.,  0.,  8.],
+       [ 0.,  0.,  9., 10.,  0.],
+       [ 0.,  0.,  0., 11., 12.]])
+>>> B.offsets
+array([-1,  0,  2], dtype=int32)
+>>> B.shape
+(5, 5)
+>>> C = B.todok()
+>>> C.items()
+dict_items([((np.int32(0), np.int32(0)), np.float64(1.0)), ((np.int32(0), np.int32(2)), np.float64(2.0)), ((np.int32(1), np.int32(0)), np.float64(3.0)), ((np.int32(1), np.int32(1)), np.float64(4.0)), ((np.int32(1), np.int32(3)), np.float64(5.0)), ((np.int32(2), np.int32(1)), np.float64(6.0)), ((np.int32(2), np.int32(2)), np.float64(7.0)), ((np.int32(2), np.int32(4)), np.float64(8.0)), ((np.int32(3), np.int32(2)), np.float64(9.0)), ((np.int32(3), np.int32(3)), np.float64(10.0)), ((np.int32(4), np.int32(3)), np.float64(11.0)), ((np.int32(4), np.int32(4)), np.float64(12.0))])
+>>> for key, val in C.items(): print (key,val)
+>>> for key, val in C.items(): print (np.int32(key),val)
+>>> history -o -p -f  Sep23_py

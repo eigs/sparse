@@ -1,5 +1,15 @@
 #  CSCI 8314 - F26 -- Diaries, data, and more 
 
+## Sep. 23 Lec. Diaries
+
+  * [Sep23_python](Sep23_python): Sep23_python -- IPython diary 
+
+  * [Data:ex3p10.txt](ex3p10.txt): array used in above diary
+
+  * [Python script:init.py](init.py): init.py python declarations
+
+  * [Matlab script: dfs.m](dfs.m): Depth First Traversal
+
 ## Sep. 21 Lec. Diaries
 
   * [Sep21_matlab](Sep21_matlab): Sep21_matlab -- matlab diary
