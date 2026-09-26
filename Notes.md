@@ -2,6 +2,17 @@
 
 
 
+* [Lecture 6](./files/LecN6.pdf) :
+Posted on: 
+Sat Sep 26 05:54:32 PM CDT 2026
+ <b>Topics:</b> 
+ Graph models; Graphs and sparse matrices;
+ Bipartitie representations; Hypergraphs; 
+ Application: paths in graphs; Markov chains (brief);
+ Computational graphs; back-propagation.
+  
+ 
+
 * [Lecture 5](./files/LecN5.pdf) :
 Posted on: 
 Sat Sep 26 05:50:07 PM CDT 2026
