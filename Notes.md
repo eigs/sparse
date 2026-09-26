@@ -2,6 +2,16 @@
 
 
 
+* [Lecture 5](./files/LecN5.pdf) :
+Posted on: 
+Sat Sep 26 05:50:07 PM CDT 2026
+ <b>Topics:</b> 
+ Triangular systems; Solving sparse triangular 
+ systems with sparse right-hand-sides.
+ LU factorization from Sparse triangular solves
+  
+ 
+
 * [Lecture 4](./files/LecN4.pdf) :
 Posted on: 
 Sun Sep 20 07:38:10 PM CDT 2026
