@@ -1,5 +1,25 @@
 #  CSCI 8314 - F26 -- Diaries, data, and more 
 
+## Sep. 28 Lec. Diaries
+  * [Sep28_matlab](Sep28_matlab): Sep28 matlab demos - diary 
+
+  * [matlab script:Lsolv.m](Lsolv.m) Lower triangular solve (row version)
+
+  * [matlab script:Lsolv_c.m](Lsolv_c.m) Lower triangular solve
+  (column version)
+  
+  * [matlab script: dfs.m](dfs.m) Depth-First Search traversal
+
+  * [Python script: dfs_py.py](dfs_py.py) DFS in python
+  
+  * [matlab script: TopSort.m](TopSort.m) Topological sort
+  
+  * [Data:mat11x11.txt](mat11x11.txt) Data used by demo
+
+  * [Data:mat6x6.txt](mat6x6.txt) Data used by demo
+
+  * [Data:matP14.txt](matP14.txt) Data used by demo
+
 ## Sep. 23 Lec. Diaries
 
   * [Sep23_python](Sep23_python): Sep23_python -- IPython diary 
