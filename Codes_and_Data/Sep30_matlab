@@ -1,0 +1,169 @@
+
+
+
+
+
+
+A = load('mat11x11.txt');
+L = sparse(A);
+
+[Lst Mark] = dfs(1,L,[], zeros(11,1))
+Lst =
+  Columns 1 through 10
+     1     3     5     2     6     9     8     7    11     4
+  Column 11
+    10
+Mark =
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+ 2     6     9     8     7    11     4
+  2     6     9     8     7    11     4
+        |
+{Invalid expression. Check for missing multiplication operator,
+missing or unbalanced delimiters, or other syntax error. To
+construct matrices, use brackets instead of parentheses.
+} 
+
+
+[Lst Mark] = dfs(6,L,[], zeros(11,1))
+Lst =
+     6     9     8     7    11    10
+Mark =
+     0
+     0
+     0
+     0
+     0
+     1
+     1
+     1
+     1
+     1
+     1
+
+
+[Lst Mark] = TopSort(L,ones(11,1))
+Lst =
+  Columns 1 through 10
+     1     3     5     2     6     9     8     7    11     4
+  Column 11
+    10
+Mark =
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+     1
+[Lst Mark] = TopSort(L,ones(11,1))
+Lst =
+  Columns 1 through 10
+     1     3     5     2     6     9     8     7    11     4
+  Column 11
+    10
+Mark =
+     0
+     1
+     1
+     2
+     2
+     2
+     3
+     3
+     3
+     4
+     4
+[Lst Mark] = TopSort(L,ones(11,1))
+Lst =
+  Columns 1 through 10
+     1     3     5     2     6     9     8     7    11     4
+  Column 11
+    10
+Mark =
+     0
+     1
+     1
+     2
+     2
+     2
+     3
+     3
+     3
+     3
+     4
+levs = LevSch(L)
+levs =
+  Columns 1 through 10
+     0     1     1     2     2     2     3     3     3     4
+  Column 11
+     4
+B = L;
+B(6,2) = 0;
+[Lst Mark] = TopSort(B,ones(11,1))
+Lst =
+  Columns 1 through 10
+     6     9     8     7    11     1     3     5     2     4
+  Column 11
+    10
+Mark =
+     0
+     1
+     1
+     2
+     2
+     0
+     1
+     1
+     1
+     3
+     2
+
+
+
+
+
+X = load('Amat')
+X = 
+  struct with fields:
+
+    A: [256x256 double]
+A = X.A;
+
+
+spy(A)
+[L U] = GP1(A);
+spy(L)
+spy(L+U)
+spy(A)
+nnz(A)
+ans =
+        2916
+nnz(L+U)-size(A,1)
+ans =
+       12930
+[L U] = GP1(A);
+
+
+
+norm(A-L*U,1)
+ans =
+   5.2069e-14
+
+
+spy(L+U)
+spy(L+U)
+diary off
