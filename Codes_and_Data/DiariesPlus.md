@@ -1,18 +1,24 @@
 #  CSCI 8314 - F26 -- Diaries, data, and more 
 
-## Sep. 39 Lec. Diaries
+## Oct 5 Lec. Diaries
+
+ * [Oct05_matlab](Oct05_matlab) Oct 05 matlab demos
+ 
+ * [Data: mat6x6.txt](mat6x6.txt) matrix in P. (set 5)-11
+
+ * [Data: mat6x6_P.txt](mat6x6_P.txt) permuted version
+ 
+## Sep. 29 Lec. Diaries
 
   * [Sep30_matlab](Sep30_matlab) Sep. 30 matlab demos
 
   * [dfs3.m](dfs3.m) Dept-First Search with levels 
 
-   * [LevSch.m](LevSch.m) Level Scheduling for triang. systems
-
+  * [LevSch.m](LevSch.m) Level Scheduling for triang. systems
 
   * [GP1.m](GP1.m) Gilbert and Peirls LU in matlab
 
   * [TopSort1.m](TopSort1.m) Top. sorting variant used by GP1
-  
 
 ## Sep. 28 Lec. Diaries
   * [Sep28_matlab](Sep28_matlab): Sep28 matlab demos - diary 
