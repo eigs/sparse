@@ -2,6 +2,17 @@
 
 
 
+* [Lecture 7](./files/LecN7.pdf) :
+Posted on: 
+Mon Oct  5 06:31:50 PM CDT 2026
+ <b>Topics:</b> 
+ Introduction to Sparse linear systems; Versions of LU
+ factorizations (dense case); Sparse Column Cholesky;
+ Graph model for Sparse Gaussian Elimination;
+ Rose and Tarjan's Fill path theorem.
+  
+ 
+
 * [Lecture 6](./files/LecN6.pdf) :
 Posted on: 
 Sat Sep 26 05:54:32 PM CDT 2026
