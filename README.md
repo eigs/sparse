@@ -22,7 +22,7 @@ Projects due last day of class.
   
 | Quiz 1 | Quiz 2 | Quiz 3 | Quiz 4 | Presentations |
 | -------- | -------- |-------- |-------- |-------- |
-| Sep 23   |  Oct  7  |  Oct 28  |  Nov 11 |  Dec 14 & 16  |
+| Sep 23   |  Oct  14  |  Oct 28  |  Nov 11 |  Dec 14 & 16  |
 
 </details>
 
