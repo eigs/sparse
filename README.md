@@ -34,3 +34,7 @@ Projects due last day of class.
 ## Diaries/Data
   
 * [Diaries+ Folder](./Codes_and_Data/DiariesPlus.md)  
+
+## Link to Canvas
+
+* [Canvas](https://canvas.umn.edu/courses/579512)
