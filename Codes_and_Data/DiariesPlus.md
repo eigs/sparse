@@ -1,5 +1,24 @@
 #  CSCI 8314 - F26 -- Diaries, data, and more 
 
+## Oct 7 Lec. Diaries
+
+ * [Oct07_matlab](Oct07_matlab) Oct 07 matlab demos
+
+ * [Oct07_python](Oct05_python) Oct 07 python demos
+
+ * [python: init.py](init.py) Python initialization file
+
+ * [python script: Pmat.py](Pmat.py) Example of Page-rank
+
+ * [Matlab script: CollegeEx.m](CollegeEx.m) College example. Set 6 p. 16
+ * [Matlab script: fd3d.m](fd3d.m) Generates 3D or 2D Laplacians
+
+ * [Matlab script: sptridiag.m](sptridiag.m) called by fd3d.m
+
+ * [Matlab demo: demo_2Dvs3D.m](demo_2Dvs3D.m) compares 2D vs 3D
+ solvers 
+
+
 ## Oct 5 Lec. Diaries
 
  * [Oct05_matlab](Oct05_matlab) Oct 05 matlab demos

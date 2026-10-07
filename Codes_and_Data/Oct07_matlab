@@ -1,0 +1,291 @@
+
+
+
+
+
+
+CodeCompatibilityAnalysis        
+CollegeEx                        
+CompactTreeBagger                
+Composite                        
+Contents                         
+CovarianceMapReduceExample       
+CoxModel                         
+code2html                        
+codebuild                        
+codebuildTest                    
+codebuildTestFolder              
+codec                            
+codeCompatibilityAnalyzer        
+codeCompatibilityReport          
+codegen                          
+coder                            
+coder_sysobj_get                 
+coderapp                         
+coderdemo_setup                  
+codergui                         
+coderprivate                     
+codertarget                      
+coderTypeEditor                  
+codetoolsswitchyard              
+codistributor                    
+codistributor1d                  
+codistributor2dbc                
+cohere                           
+colamd                           
+colon                            
+color2background                 
+colorbar                         
+colorcube                        
+colordef                         
+colormap                         
+colormapeditor                   
+colornone                        
+colororder                       
+colperm                          
+colstyle                         
+combnk                           
+combvec                          
+comet                            
+comet3                           
+commandhistory                   
+commandwindow                    
+commonplotfunc                   
+compan                           
+comparisons                      
+comparisons_private              
+compass                          
+compdir                          
+compet                           
+competlayer                      
+completefreqresp                 
+complex                          
+compose                          
+computeFinDiffGradAndJac         
+computeKKTErrorForQPLP           
+computepsd                       
+computer                         
+comserver                        
+con2seq                          
+concatenationLayer               
+concur                           
+cond                             
+condeig                          
+condest                          
+coneplot                         
+coneprog                         
+config_library                   
+configset                        
+confusion                        
+confusionchart                   
+confusionmat                     
+conj                             
+connector                        
+containers                       
+contains                         
+contentsrpt                      
+continue                         
+contour                          
+contour3                         
+contourc                         
+contourf                         
+contours                         
+contourslice                     
+contrast                         
+controlchart                     
+controllib                       
+controllibutils                  
+controlrules                     
+conv                             
+conv2                            
+convergent                       
+convert2db                       
+convert2deg                      
+convert2engstrs                  
+convert2sq                       
+convert2vector                   
+convertCharsToStrings            
+convertContainedStringsToChars   
+convertfrequnits                 
+convertmagunits                  
+convertMuPADNotebook             
+convertSpreadsheetDates          
+convertSpreadsheetExcelDates     
+convertStringsToChars            
+convertToGUIDECallbackArguments  
+convhull                         
+convhulln                        
+convmtx                          
+convn                            
+convolution1dLayer               
+convolution2dLayer               
+convolution3dLayer               
+convwf                           
+cool                             
+cophenet                         
+copper                           
+copulacdf                        
+copulafit                        
+copulaparam                      
+copulapdf                        
+copularnd                        
+copulastat                       
+copyfile                         
+copyFunctionHandleToWorkers      
+copygraphics                     
+copyobj                          
+copyoptionsfcn                   
+copyright_blk_callback           
+cordexch                         
+cordicabs                        
+cordicacos                       
+cordicangle                      
+cordicasin                       
+cordicatan2                      
+cordiccart2pol                   
+cordiccexp                       
+cordiccos                        
+cordicpol2cart                   
+cordicqr                         
+cordicrotate                     
+cordicsin                        
+cordicsincos                     
+cordicsqrt                       
+cordictanh                       
+corr                             
+corrcoef                         
+corrcov                          
+corrmtx                          
+cos                              
+cosd                             
+cosh                             
+cospi                            
+cot                              
+cotd                             
+coth                             
+count                            
+countFlightsMapper               
+countFlightsReducer              
+countlabels                      
+cov                              
+covarianceMapper                 
+covarianceReducer                
+coveragerpt                      
+coxphfit                         
+
+ls
+00README   CollegeEx.m	   init.py~	 __pycache__  TopSort1.m
+Amat.mat   demo_2Dvs3D.m   Oct07_matlab  SAV	      TopSort.m
+auto	   dfs_nr_py.py    Pmat.m	 sptridiag.m
+autRel.py  DiariesPlus.md  Pmat.py	 tmp
+cmdown	   fd3d.m	   Pmat.py~	 tmp~
+cmup	   init.py	   Pmat.txt	 ToCopy
+
+CollegeEx
+M =
+    0.2000         0         0         0         0         0
+    0.6000    0.1000         0         0         0         0
+         0    0.7000    0.1000         0         0         0
+         0         0    0.8000    0.1000         0         0
+         0         0         0    0.7500    1.0000         0
+    0.2000    0.2000    0.1000    0.1500         0    1.0000
+x0 =
+    10    16    12    12     0     0
+P = M';
+
+
+x = x0;
+x
+x =
+    10    16    12    12     0     0
+x = x*P
+x =
+    2.0000    7.6000   12.4000   10.8000    9.0000    8.2000
+x = x*P
+x =
+    0.4000    1.9600    6.5600   11.0000   17.1000   12.9800
+x = x*P
+x =
+    0.0800    0.4360    2.0280    6.3480   25.3500   15.7580
+x = x*P
+x =
+    0.0160    0.0916    0.5080    2.2572   30.1110   17.0162
+x = x*P
+x =
+    0.0032    0.0188    0.1149    0.6321   31.8039   17.4271
+x = x*P
+x =
+    0.0006    0.0038    0.0246    0.1551   32.2780   17.5378
+x = x*P
+x =
+    0.0001    0.0008    0.0051    0.0352   32.3944   17.5644
+x = x*P
+x =
+    0.0000    0.0002    0.0010    0.0076   32.4208   17.5704
+x = x*P
+x =
+    0.0000    0.0000    0.0002    0.0016   32.4265   17.5717
+x = x*P
+x =
+    0.0000    0.0000    0.0000    0.0003   32.4277   17.5719
+x(5)/50
+ans =
+    0.6486
+
+
+
+[D X] = eig(P');
+diag(D)
+ans =
+         0
+         0
+         0
+   -0.7620
+   -0.6350
+   -0.1496
+[X, D] = eig(P');
+diag(D)
+ans =
+    1.0000
+    1.0000
+    0.1000
+    0.1000
+    0.1000
+    0.2000
+X[:,1]
+ X[:,1]
+  |
+{Invalid expression. When calling a function or indexing a
+variable, use parentheses. Otherwise, check for mismatched
+delimiters.
+} 
+X(:,1)
+ans =
+     0
+     0
+     0
+     0
+     0
+     1
+X(:,2)
+ans =
+     0
+     0
+     0
+     0
+     1
+     0
+
+
+
+
+demo           demo_controls  demod          demowin        
+demo_2Dvs3D    demobp1        demos          
+demo_2Dvs3D
+n =
+      122500
+Elapsed time is 0.585581 seconds.
+n =
+      122500
+Elapsed time is 4.858754 seconds.
+diary off
