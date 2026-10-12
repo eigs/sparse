@@ -2,6 +2,15 @@
 
 
 
+* [Lecture 9](./files/LecN9.pdf) :
+Posted on: 
+Mon 12 Oct 2026 08:53:24 AM CDT
+ <b>Topics:</b> 
+ Back to graphs; paths in graphs; Perron Frobenius theorem;
+ Powers of matrices; Notions of centrality; Page Rank;
+
+
+
 * [Lecture 8](./files/LecN8.pdf) :
 Posted on: 
 Mon 12 Oct 2026 08:57:11 AM CDT
@@ -11,16 +20,7 @@ Mon 12 Oct 2026 08:57:11 AM CDT
  Minimal degree ordering and variants;
  Nested dissection; complexity for model problems.
   
- 
 
-* [Lecture 9](./files/LecN9.pdf) :
-Posted on: 
-Mon 12 Oct 2026 08:53:24 AM CDT
- <b>Topics:</b> 
- Back to graphs; paths in graphs; Perron Frobenius theorem;
- Powers of matrices; Notions of centrality; Page Rank;
-  
- 
 
 * [Lecture 7](./files/LecN7.pdf) :
 Posted on: 
