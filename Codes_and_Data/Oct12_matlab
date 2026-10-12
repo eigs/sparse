@@ -79,3 +79,16 @@ spyGrid(B)
 {Not enough input arguments.
 Error in spyGrid (line 6)
  for blk=2:length(ptr)-1                       } 
+spyGrid(B,ptr)
+spyGrid(B,ptr)
+
+
+
+
+
+
+
+
+
+
+diary off
