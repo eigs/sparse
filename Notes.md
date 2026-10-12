@@ -2,6 +2,15 @@
 
 
 
+* [Lecture 9](./files/LecN9.pdf) :
+Posted on: 
+Mon 12 Oct 2026 08:53:24 AM CDT
+ <b>Topics:</b> 
+ Back to graphs; paths in graphs; Perron Frobenius theorem;
+ Powers of matrices; Notions of centrality; Page Rank;
+  
+ 
+
 * [Lecture 7](./files/LecN7.pdf) :
 Posted on: 
 Mon Oct  5 06:31:50 PM CDT 2026
