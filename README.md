@@ -38,3 +38,7 @@ Projects due last day of class.
 ## Link to Canvas
 
 * [Canvas](https://canvas.umn.edu/courses/579512)
+
+## Link to Project page on Canvas: 
+
+* [Project page on Canvas](https://canvas.umn.edu/courses/579512/assignments/5690720)
