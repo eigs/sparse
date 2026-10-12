@@ -1,5 +1,17 @@
 #  CSCI 8314 - F26 -- Diaries, data, and more 
 
+## Oct. 12 Lec. Diaries
+ 
+ * [Oct12_matlab](Oct12_matlab) Oct 12 matlab demos
+
+ * [Data: can_256.mat](can_256.mat)
+
+ * [matlab script: cmk1.m](cmk1.m)
+
+ * [matlab script: color.m](color.m)
+
+ * [matlab script: spyGrid.m](spyGrid.m)
+
 ## Oct 7 Lec. Diaries
 
  * [Oct07_matlab](Oct07_matlab) Oct 07 matlab demos

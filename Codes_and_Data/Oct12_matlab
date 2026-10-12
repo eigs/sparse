@@ -1,0 +1,81 @@
+format compact
+
+load('can_256.mat')
+A = Problem.A;
+
+
+spy(A)
+A = A+ spdiags(A*ones(n,1),0,n,n);
+{Unrecognized function or variable 'n'.} 
+n = size(A,1);
+A = A+ spdiags(A*ones(n,1),0,n,n);
+
+p = cmk1(A,1);
+
+
+
+n
+n =
+   256
+p(1:20)
+ans =
+  Columns 1 through 10
+     1    29    35     2    36    37    48     8     9    30
+  Columns 11 through 20
+    38     3    55    56    14    54    67    13    39    49
+B = A(p,p);
+
+
+spy(B)
+R = chol(B);
+
+spy(R)
+q = p(end:-1:1);
+
+
+nnz(R)
+ans =
+       15522
+
+
+
+B = A(q,q);
+
+
+R = chol(B);
+nnz(R)
+ans =
+        7923
+spy(R)
+
+
+
+p = symrcm(A);
+
+
+
+B = A(p,p);
+R = chol(B);
+spy(R)
+nnz(R)
+ans =
+        6721
+p = symamd(A);
+
+B = A(p,p);
+R = chol(B);
+nnz(R)
+ans =
+        3337
+spy(R)
+
+
+[col, p, ptr] = color(A,15);
+
+
+B = A(p,p);
+spy(B)
+spyGrid(B)
+{Not enough input arguments.
+Error in spyGrid (line 6)
+ for blk=2:length(ptr)-1                       } 
