@@ -2,6 +2,16 @@
 
 
 
+* [Lecture 10](./files/LecN10.pdf) :
+Posted on: 
+Wed 14 Oct 2026 08:54:53 AM CDT
+ <b>Topics:</b> 
+ Graph Laplaceans and their application;
+ Graph partitioning; Spectral graph partitioning;
+ Introduction to Clustering.
+  
+ 
+
 * [Lecture 9](./files/LecN9.pdf) :
 Posted on: 
 Mon 12 Oct 2026 08:53:24 AM CDT
