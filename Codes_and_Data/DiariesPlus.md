@@ -1,8 +1,17 @@
 #  CSCI 8314 - F26 -- Diaries, data, and more 
 
-## Oct. 12 Lec. Diaries
+
+## Oct. 14 Lec. Diaries
+
+ * [Oct14_matlab](Oct14_matlab) Oct 14 matlab demos
+
+ * [Oct14_python](Oct14_python) Oct 14 python demos
+
+ * [Data: CC.txt](CC.txt)  matrix that defines the graph
  
- * [Oct12_matlab](Oct12_matlab) Oct 12 matlab demos
+ * [Matlab driver: test_centr.m](test_centr.m)
+
+## Oct. 12 Lec. Diaries
 
  * [Data: can_256.mat](can_256.mat)
 

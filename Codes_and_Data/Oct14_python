@@ -1,0 +1,35 @@
+>>> run init.py
+>>> X = np.loadtxt('CC.txt')
+>>> X = X-1
+>>> X
+array([[0., 1.],
+       [0., 4.],
+       [1., 2.],
+       [1., 3.],
+       [2., 3.],
+       [2., 5.],
+       [4., 5.]])
+>>> rows = X[:,0].astype(int)
+>>> cols = X[:,1].astype(int)
+>>> vals = np.ones_like(rows);
+>>> B = coo((vals,(rows,cols)),shape=(6,6))
+>>> import networkx as nx
+>>> G = nx.from_scipy_sparse_array(B)
+>>> nx.plot(G)
+>>> nx.draw(G,with_labels=True)
+>>> plt.show()
+>>> nx.closeness_centrality(G)
+{0: 0.625,
+ 1: 0.7142857142857143,
+ 2: 0.7142857142857143,
+ 3: 0.5555555555555556,
+ 4: 0.5555555555555556,
+ 5: 0.625}
+>>> nx.betweenness_centrality(G)
+{0: 0.15000000000000002,
+ 1: 0.25,
+ 2: 0.25,
+ 3: 0.0,
+ 4: 0.1,
+ 5: 0.15000000000000002}
+>>> history -o -p -f  Oct14_python
