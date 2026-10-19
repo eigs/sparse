@@ -1,0 +1,245 @@
+
+
+diary Oct19_matlab
+
+
+B = load('BB.txt')
+B =
+     1     2
+     1     3
+     1     5
+     2     1
+     2     3
+     2     4
+     3     1
+     3     2
+     3     4
+     4     2
+     4     3
+     5     1
+A = sparse(B(:,1),B(:,2),ones(size(B(:,1),1),5,5)
+ A = sparse(B(:,1),B(:,2),ones(size(B(:,1),1),5,5)
+                                                  |
+{Invalid expression. When calling a function or indexing a
+variable, use parentheses. Otherwise, check for mismatched
+delimiters.
+} 
+size(B)
+ans =
+    12     2
+vals = ones(12,1);
+A = sparse(B(:,1),B(:,2),vals,5,5)
+A =
+   (2,1)        1
+   (3,1)        1
+   (5,1)        1
+   (1,2)        1
+   (3,2)        1
+   (4,2)        1
+   (1,3)        1
+   (2,3)        1
+   (4,3)        1
+   (2,4)        1
+   (3,4)        1
+   (1,5)        1
+G = graph(A);
+plot(G_
+ plot(G_
+        |
+{Invalid expression. When calling a function or indexing a
+variable, use parentheses. Otherwise, check for mismatched
+delimiters.
+} 
+plot(G)
+betweenness_centrality(G)
+{Unrecognized function or variable 'betweenness_centrality'.} 
+centrality(G,'betweenness')
+ans =
+     3
+     1
+     1
+     0
+     0
+centrality(G,'closeness')
+ans =
+    0.2000
+    0.2000
+    0.2000
+    0.1429
+    0.1250
+
+
+
+A
+A =
+   (2,1)        1
+   (3,1)        1
+   (5,1)        1
+   (1,2)        1
+   (3,2)        1
+   (4,2)        1
+   (1,3)        1
+   (2,3)        1
+   (4,3)        1
+   (2,4)        1
+   (3,4)        1
+   (1,5)        1
+[X, D] = eig(full(A));
+
+d = diag(D)
+d =
+   -1.7757
+   -1.0000
+   -0.5892
+    0.7237
+    2.6412
+p = X(:,5)
+p =
+   -0.4747
+   -0.5371
+   -0.5371
+   -0.4067
+   -0.1797
+
+p = p/sum(p)
+p =
+    0.2223
+    0.2515
+    0.2515
+    0.1905
+    0.0842
+
+centrality(G,'eigenvector')
+ans =
+    0.2223
+    0.2515
+    0.2515
+    0.1905
+    0.0842
+centrality(G,'some')
+{Error using graph/centrality
+Expected input to match one of these values:
+
+'degree', 'betweenness', 'closeness', 'eigenvector',
+'pagerank'
+
+The input, 'some', did not match any of the valid values.} 
+al = 0.1;
+
+
+
+c = (speye(5)-al*A')\one(5,1)-ones(5,1)
+{Unrecognized function or variable 'one'.} 
+c = (speye(5)-al*A')\ones(5,1)-ones(5,1)
+c =
+    0.3957
+    0.4086
+    0.4086
+    0.2817
+    0.1396
+
+
+
+
+expm(A)
+ans =
+    3.8203    3.4031    3.4031    2.1505    1.7631
+    3.4031    4.3333    3.9654    3.1207    1.0752
+    3.4031    3.9654    4.3333    3.1207    1.0752
+    2.1505    3.1207    3.1207    3.0274    0.5648
+    1.7631    1.0752    1.0752    0.5648    1.6698
+T =expm(A)
+T =
+    3.8203    3.4031    3.4031    2.1505    1.7631
+    3.4031    4.3333    3.9654    3.1207    1.0752
+    3.4031    3.9654    4.3333    3.1207    1.0752
+    2.1505    3.1207    3.1207    3.0274    0.5648
+    1.7631    1.0752    1.0752    0.5648    1.6698
+trace(T)
+ans =
+   17.1840
+
+
+x = [1 -1 -1 1 1]'
+x =
+     1
+    -1
+    -1
+     1
+     1
+x'*A*x 
+ans =
+    -4
+A
+A =
+   (2,1)        1
+   (3,1)        1
+   (5,1)        1
+   (1,2)        1
+   (3,2)        1
+   (4,2)        1
+   (1,3)        1
+   (2,3)        1
+   (4,3)        1
+   (2,4)        1
+   (3,4)        1
+   (1,5)        1
+L = myLaplacian(A)
+L =
+   (1,1)        3
+   (2,1)       -1
+   (3,1)       -1
+   (5,1)       -1
+   (1,2)       -1
+   (2,2)        3
+   (3,2)       -1
+   (4,2)       -1
+   (1,3)       -1
+   (2,3)       -1
+   (3,3)        3
+   (4,3)       -1
+   (2,4)       -1
+   (3,4)       -1
+   (4,4)        2
+   (1,5)       -1
+   (5,5)        1
+x'*L*x 
+ans =
+    16
+
+
+
+A
+A =
+   (2,1)        1
+   (3,1)        1
+   (5,1)        1
+   (1,2)        1
+   (3,2)        1
+   (4,2)        1
+   (1,3)        1
+   (2,3)        1
+   (4,3)        1
+   (2,4)        1
+   (3,4)        1
+   (1,5)        1
+G = graph(A);
+plot(G)
+H = load('Hmat.txt')
+H =
+     1     0     0     0
+    -1     1     0     0
+     0     0     1     0
+     0     0     0     1
+     0    -1    -1    -1
+L = H*H'
+L =
+     1    -1     0     0     0
+    -1     2     0     0    -1
+     0     0     1     0    -1
+     0     0     0     1    -1
+     0    -1    -1    -1     3
+x'*L*x 
+ans =
+    12
+diary off

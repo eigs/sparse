@@ -1,5 +1,12 @@
 #  CSCI 8314 - F26 -- Diaries, data, and more 
 
+## Oct. 19 Lec. Diaries
+
+ * [Oct19_matlab](Oct19_matlab) Oct 19 matlab demos
+
+ * [Data: BB.txt](BB.txt)  matrix that defines the graph
+
+ * [Data: Hmat.txt](BB.txt)  incidence matrix H 
 
 ## Oct. 14 Lec. Diaries
 
