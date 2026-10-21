@@ -2,6 +2,17 @@
 
 
 
+* [Lecture 11](./files/LecN11.pdf) :
+Posted on: 
+Wed 21 Oct 2026 08:48:32 AM CDT
+ <b>Topics:</b> 
+ Clustering; Basic method: K-means; Similarity graphs; kNN graphs;
+ Measures of separation: edge cuts, normalized cuts, etc;
+ Similarity graphs; kNN graphs;
+ Application: Segmentation.
+  
+ 
+
 * [Lecture 10](./files/LecN10.pdf) :
 Posted on: 
 Wed 14 Oct 2026 08:54:53 AM CDT
