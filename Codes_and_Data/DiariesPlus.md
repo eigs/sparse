@@ -1,5 +1,27 @@
 #  CSCI 8314 - F26 -- Diaries, data, and more 
 
+## Oct. 21 Lec. Diaries
+
+  * [Oct21_matlab](Oct21_matlab) Oct 21 matlab demos
+
+  * [script: assmbl1.m](assmbl1.m) simple assembly process
+
+  * [script: get_mesh.m](get_mesh.m) script to read mesh data
+
+  * [script: : hdisk1.m](hdisk1.m) script to create half disk
+
+  * [Data: mesh.edge](mesh.edge)
+
+  * [Data: mesh.xy](mesh.xy)
+
+  * [script: mygplot.m](mygplot.m) script to plot a mesh
+
+  * [script: RSB3.m](RSB3.m) Recursive graph partitioning
+
+  * [script: testBis_simple.m](testBis_simple.m)
+
+  * [script: testMeshPart.m](testMeshPart.m)
+
 ## Oct. 19 Lec. Diaries
 
  * [Oct19_matlab](Oct19_matlab) Oct 19 matlab demos
