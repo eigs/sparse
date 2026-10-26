@@ -2,6 +2,28 @@
 
 
 
+* [Lecture 12](./files/LecN12.pdf) :
+Posted on: 
+Mon 26 Oct 2026 08:35:18 AM CDT
+ <b>Topics:</b> 
+ Graph embeddings; Laplacean Eigenmaps,; 
+ Locally Linear Embeddings (LLE); Explicit mappings PCA, LPP;
+ Graph Factorization; Graph Neural Networks.
+ Explicit mappings; PCA, LPP, ONPP.
+  
+ 
+
+* [Lecture 12](./files/LecN12.pdf) :
+Posted on: 
+Mon 26 Oct 2026 08:33:37 AM CDT
+ <b>Topics:</b> 
+ Graph embeddings; Laplacean Eigenmaps,; 
+ Locally Linear Embeddings (LLE); Explicit mappings PCA, LPP;
+ Graph Factorization; Graph Neural Networks.
+ Explicit mappings; PCA, LPP, ONPP.
+  
+ 
+
 * [Lecture 11](./files/LecN11.pdf) :
 Posted on: 
 Wed 21 Oct 2026 08:48:32 AM CDT
