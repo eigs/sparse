@@ -1,0 +1,15 @@
+>>> run init.py
+>>> import scipy.io as sio
+>>> import networkx as nx
+>>> Lmat = sio.loadmat('Mark10_lap')
+>>> Lmat.keys()
+dict_keys(['__header__', '__version__', '__globals__', 'L1'])
+>>> L = Lmat["L1"]
+>>> L.setdiag(0.0)
+>>> L.eliminate_zeros()
+>>> G = nx.from_scipy_sparse_array(L)
+>>> nx.draw(G,with_labels=False)
+>>> plt.show()
+>>> nx.draw(G,with_labels=False)
+>>> plt.show()
+>>> history -o -p -f  Oct26_python

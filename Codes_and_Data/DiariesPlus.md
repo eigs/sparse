@@ -1,5 +1,20 @@
 #  CSCI 8314 - F26 -- Diaries, data, and more 
 
+
+## Oct. 26 Lec. Diaries
+
+ * [Oct26](Oct26) Oct 26 matlab demos
+ 
+ * [Oct26_python](Oct26_python) Oct 26 python demos
+
+ * [matlab script: testMir.m](testMir.m) testing segmentation
+
+ * [matlab script:makeRBFGraph.m](makeRBFGraph.m) used by testMir.m
+
+ * [matlab script:mark.m](mark.m) generates a sample Markov chain example
+
+ * [Data:Mark10_lap.mat](Mark10_lap.mat) matrix used by python demo
+
 ## Oct. 21 Lec. Diaries
 
   * [Oct21_matlab](Oct21_matlab) Oct 21 matlab demos
