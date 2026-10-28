@@ -1,0 +1,10 @@
+
+demo_digits(dat,'EMAPS')
+m =
+   320
+n =
+   156
+   [note: K>m; regularization will be used]
+ans =
+    16
+demo_digits(dat,'LLE')

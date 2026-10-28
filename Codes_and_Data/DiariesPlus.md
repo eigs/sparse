@@ -1,5 +1,18 @@
 #  CSCI 8314 - F26 -- Diaries, data, and more 
 
+## Oct. 28 Lec. Diaries
+
+ * [Oct28](Oct28) Oct 28 matlab demos
+
+ * [Data: data.mat](data.mat)
+
+ * [Matlab script:demo_digits.m](demo_digits.m)
+
+ * [Matlab  script: EMAPS.m](EMAPS.m) -- eigenmaps
+
+ * [Matlab  script: LLE.m](LLE.m) -- LLE
+
+ * [Matlab  script: kNNgraph.m](kNNgraph.m)
 
 ## Oct. 26 Lec. Diaries
 
