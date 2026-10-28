@@ -2,6 +2,19 @@
 
 
 
+* [Lecture 13](./files/LecN13.pdf) :
+Posted on: 
+Wed 28 Oct 2026 08:00:30 AM CDT
+ <b>Topics:</b> 
+ Introduction to iterative methods. Background and motivation;
+ Basic iterations: relaxation techniques.
+ Projection-type methods; Background on projectors;
+ Projectors and subspaces; General results;
+ One-dimensonal projection methods; Steepest descent;
+ Minimal Residual; Residual norm steepest descent.
+  
+ 
+
 * [Lecture 12](./files/LecN12.pdf) :
 Posted on: 
 Mon 26 Oct 2026 08:35:18 AM CDT
