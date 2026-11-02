@@ -1,0 +1,120 @@
+format compact
+
+
+'with omega = 1.0'
+ans =
+    'with omega = 1.0'
+testGS
+ iter    1, err      8.856e+00 
+ iter    2, err      7.490e+00 
+ iter    3, err      6.724e+00 
+ iter    4, err      6.130e+00 
+ iter    5, err      5.622e+00 
+ iter    6, err      5.171e+00 
+ iter    7, err      4.764e+00 
+ iter    8, err      4.394e+00 
+ iter    9, err      4.054e+00 
+ iter   10, err      3.743e+00 
+ iter   11, err      3.456e+00 
+ iter   12, err      3.191e+00 
+ iter   13, err      2.947e+00 
+ iter   14, err      2.720e+00 
+ iter   15, err      2.511e+00 
+ iter   16, err      2.318e+00 
+ iter   17, err      2.139e+00 
+ iter   18, err      1.974e+00 
+ iter   19, err      1.821e+00 
+ iter   20, err      1.680e+00 
+ iter   21, err      1.549e+00 
+ iter   22, err      1.428e+00 
+ iter   23, err      1.317e+00 
+ iter   24, err      1.214e+00 
+ iter   25, err      1.119e+00 
+ iter   26, err      1.031e+00 
+ iter   27, err      9.501e-01 
+ iter   28, err      8.754e-01 
+ iter   29, err      8.065e-01 
+ iter   30, err      7.429e-01 
+ iter   31, err      6.844e-01 
+ iter   32, err      6.304e-01 
+ iter   33, err      5.806e-01 
+ iter   34, err      5.347e-01 
+ iter   35, err      4.924e-01 
+ iter   36, err      4.535e-01 
+ iter   37, err      4.176e-01 
+ iter   38, err      3.846e-01 
+ iter   39, err      3.541e-01 
+ iter   40, err      3.261e-01 
+ iter   41, err      3.002e-01 
+ iter   42, err      2.764e-01 
+ iter   43, err      2.545e-01 
+ iter   44, err      2.344e-01 
+ iter   45, err      2.158e-01 
+ iter   46, err      1.987e-01 
+ iter   47, err      1.829e-01 
+ iter   48, err      1.684e-01 
+ iter   49, err      1.551e-01 
+ iter   50, err      1.428e-01 
+ans =
+    1.2506
+
+'with omega = 1.7'
+ans =
+    'with omega = 1.7'
+
+testGS
+ iter    1, err      9.867e+00 
+ iter    2, err      7.497e+00 
+ iter    3, err      6.013e+00 
+ iter    4, err      4.094e+00 
+ iter    5, err      3.172e+00 
+ iter    6, err      2.521e+00 
+ iter    7, err      1.947e+00 
+ iter    8, err      1.534e+00 
+ iter    9, err      1.211e+00 
+ iter   10, err      9.546e-01 
+ iter   11, err      7.688e-01 
+ iter   12, err      6.076e-01 
+ iter   13, err      4.934e-01 
+ iter   14, err      3.745e-01 
+ iter   15, err      2.958e-01 
+ iter   16, err      2.380e-01 
+ iter   17, err      1.928e-01 
+ iter   18, err      1.583e-01 
+ iter   19, err      1.186e-01 
+ iter   20, err      6.735e-02 
+ iter   21, err      4.925e-02 
+ iter   22, err      1.666e-02 
+ iter   23, err      7.017e-03 
+ iter   24, err      4.808e-03 
+ iter   25, err      3.622e-03 
+ iter   26, err      2.667e-03 
+ iter   27, err      2.048e-03 
+ iter   28, err      1.412e-03 
+ iter   29, err      1.064e-03 
+ iter   30, err      8.057e-04 
+ iter   31, err      6.379e-04 
+ iter   32, err      4.644e-04 
+ iter   33, err      3.598e-04 
+ iter   34, err      2.641e-04 
+ iter   35, err      1.553e-04 
+ iter   36, err      1.170e-04 
+ iter   37, err      9.504e-05 
+ iter   38, err      7.498e-05 
+ iter   39, err      5.893e-05 
+ iter   40, err      5.180e-05 
+ iter   41, err      2.719e-05 
+ iter   42, err      2.029e-05 
+ iter   43, err      1.384e-05 
+ iter   44, err      5.656e-06 
+ iter   45, err      3.803e-06 
+ iter   46, err      2.489e-06 
+ iter   47, err      1.991e-06 
+ iter   48, err      1.429e-06 
+ iter   49, err      1.086e-06 
+ iter   50, err      7.287e-07 
+ans =
+   4.8108e-06
+[om rho] = sorCurv(A,0.05);
+plot(om, rho)
+diary off

@@ -1,5 +1,13 @@
 #  CSCI 8314 - F26 -- Diaries, data, and more 
 
+## Nov 2nd Lec. Diaries
+
+ * [Nov02_matlab](Nov02_matlab) Nov 2nd matlab demos
+
+ * [Matlab script: testGS.m](testGS.m) Script to test SOR
+
+ * [Matlab script:sorCurv.m](sorCurv.m) to plot convergence curve
+ 
 ## Oct. 28 Lec. Diaries
 
  * [Oct28](Oct28) Oct 28 matlab demos
