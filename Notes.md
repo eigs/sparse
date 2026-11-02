@@ -2,6 +2,16 @@
 
 
 
+* [Lecture 14](./files/LecN14.pdf) :
+Posted on: 
+Mon Nov  2 09:52:27 AM CST 2026
+ <b>Topics:</b> 
+ Krylov subspace methods; Introduction; Krylov subspaces;
+ Gram Schmidt process (review); The Arnoldi process;
+ FOM and GMRES.
+  
+ 
+
 * [Lecture 13](./files/LecN13.pdf) :
 Posted on: 
 Wed 28 Oct 2026 08:00:30 AM CDT
