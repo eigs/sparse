@@ -2,6 +2,16 @@
 
 
 
+* [Lecture 15](./files/LecN15.pdf) :
+Posted on: 
+Wed Nov 11 07:48:00 AM CST 2026
+ <b>Topics:</b> 
+ Krylov subspace methods (Continued); Practical variants:
+ Restarting & truncating; Hermitian case: The Lanczos algorithm;
+ Conjugate gradients.
+  
+ 
+
 * [Lecture 14](./files/LecN14.pdf) :
 Posted on: 
 Mon Nov  2 09:52:27 AM CST 2026
