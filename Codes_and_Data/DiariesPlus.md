@@ -1,5 +1,11 @@
 #  CSCI 8314 - F26 -- Diaries, data, and more 
 
+## Nov 11 Lec. Diaries
+
+ * [Nov11_matlab](Nov11_matlab) Nov 11 matlab demos
+
+ * [Matlab script: arnoldi.m](arnoldi.m) Arnoldi method
+ 
 ## Nov 2nd Lec. Diaries
 
  * [Nov02_matlab](Nov02_matlab) Nov 2nd matlab demos
