@@ -1,5 +1,13 @@
 #  CSCI 8314 - F26 -- Diaries, data, and more 
 
+## Nov 16 Lec. Diaries
+
+ * [Nov16_matlab](Nov16_matlab) Nov 16 matlab demos
+
+ * [Matlab script: fom.m](fom.m) FOM method
+
+ * [Matlab script: gmres.m](gmres.m) GMRES method
+ 
 ## Nov 11 Lec. Diaries
 
  * [Nov11_matlab](Nov11_matlab) Nov 11 matlab demos
