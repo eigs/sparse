@@ -2,6 +2,16 @@
 
 
 
+* [Lecture 16](./files/LecN16.pdf) :
+Posted on: 
+Wed Nov 18 09:17:38 AM CST 2026
+ <b>Topics:</b> 
+ Convergence results; Background: Best uniform approximation;
+ Chebyshev polynomials; Analysis of the CG algorithm;
+ Analysis in the non-Hermitian case.
+  
+ 
+
 * [Lecture 15](./files/LecN15.pdf) :
 Posted on: 
 Wed Nov 11 07:48:00 AM CST 2026
