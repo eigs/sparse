@@ -2,6 +2,16 @@
 
 
 
+* [Lecture 17](./files/LecN17.pdf) :
+Posted on: 
+Mon Nov 23 08:53:58 AM CST 2026
+ <b>Topics:</b> 
+ Preconditioning; Introduction; Preconditioned iterations;
+ Preconditioned CG; Preconditioned FOM/GMRES; Standard Preconditioners
+ ILU preconditopners; ILU(0), ILU(p), ILUT. 
+  
+ 
+
 * [Lecture 16](./files/LecN16.pdf) :
 Posted on: 
 Wed Nov 18 09:17:38 AM CST 2026
