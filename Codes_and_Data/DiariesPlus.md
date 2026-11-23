@@ -1,5 +1,14 @@
 #  CSCI 8314 - F26 -- Diaries, data, and more 
 
+## Nov 23 Lec. Diaries
+
+ * [Nov23_matlab](Nov23_matlab) Nov 23 matlab demos
+
+ * [Matlab script: CG.m](CG.m) CG method
+ 
+ * [Matlab script: testCG.m](testCG.m) testCG.m method
+
+
 ## Nov 16 Lec. Diaries
 
  * [Nov16_matlab](Nov16_matlab) Nov 16 matlab demos
